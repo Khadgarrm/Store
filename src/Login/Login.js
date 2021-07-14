@@ -10,7 +10,7 @@ function Login() {
 
   const signIn = (e) => {
     e.preventDefault();
-    // firebase
+    
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
@@ -31,7 +31,6 @@ function Login() {
         }
       })
       .catch((err) => alert(err.message));
-    // fancy firebase register
   };
 
   return (
