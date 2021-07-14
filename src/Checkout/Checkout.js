@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./Checkout.css";
-import Subtotal from "./Subtotal";
-import { useStateValue } from "./StateProvider";
+import Subtotal from "../Subtotal/Subtotal";
+import { useStateValue } from "../StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import { Link, useHistory } from "react-router-dom";
 

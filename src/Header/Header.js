@@ -3,10 +3,10 @@ import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import { Link } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./firebase";
+import { useStateValue } from "../StateProvider";
+import { auth } from "../firebase";
 import { Container, Drawer, Toolbar, AppBar, IconButton, Typography, Box, Button,  } from "@material-ui/core";
-import Checkout from "./Checkout";
+import Checkout from "../Checkout/Checkout";
 import MenuIcon from '@material-ui/icons/Menu';
 
 

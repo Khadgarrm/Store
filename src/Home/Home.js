@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Checkout from "./Checkout";
+import Checkout from "../Checkout/Checkout";
 import "./Home.css";
-import Product from "./Product";
+import Product from "../Product/Product";
 
 
 const Home = () => {

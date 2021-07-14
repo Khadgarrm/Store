@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import Header from "./Header";
-import Home from "./Home";
+import Header from "./Header/Header";
+import Home from "./Home/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Checkout from "./Checkout";
-import Login from "./Login";
+import Checkout from "./Checkout/Checkout";
+import Login from "./Login/Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
-import Payment from "./Payment";
+import Payment from "./Payment/Payment";
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import { ToastContainer } from "react-toastify";
-import Orders from "./Orders";
-import Footer from "./Footer"
+import Orders from "./Orders/Orders";
+import Footer from "./Footer/Footer"
 
 const promise = loadStripe(
   "pk_test_51HPvTBIOljmntfcQC1n0EJpWiklLHfLLbvIRmbtahMdllY6NNLF5vu7hw9O5PYBaTZdmf3ppAtWbhTbCzPZnx0o500tCU9bjNq"
